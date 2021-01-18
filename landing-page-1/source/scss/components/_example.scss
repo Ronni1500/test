@@ -1,0 +1,17 @@
+.example{
+    border: 1px solid $red;
+   &__items{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       &__item{
+           width: 27%;
+           & img{
+               max-width: 100%;
+           }
+       }
+   } 
+   &__btn{
+       text-align: center;
+   }
+}

@@ -1,0 +1,29 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    &__phone{
+        text-align: left;
+        &__text{
+            font-size: 25px;
+            color: #333;
+            margin-bottom: 15px;
+            &__zakaz{
+                color: $red;
+                font-size: 18px;
+            } 
+        }
+    }
+    &__address{
+        text-align: left;
+        &__text{
+            color: $gray--text;
+            margin-bottom: 15px;
+        }
+        &__proezd{
+            color: $red;
+            font-size: 18px;
+        }
+    }
+}

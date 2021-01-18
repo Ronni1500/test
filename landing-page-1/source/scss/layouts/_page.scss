@@ -1,0 +1,14 @@
+.page{
+    &__btn{
+        background-clip: $red;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+    &__title{
+        text-transform: uppercase;
+        color: $gray--text;
+        font-size: 35px;
+    }
+}

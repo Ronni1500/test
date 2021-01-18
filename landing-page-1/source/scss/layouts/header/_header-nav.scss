@@ -1,0 +1,13 @@
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    list-style: none;
+    &__wrapper{
+        background: $gray--bg;
+    }
+}
