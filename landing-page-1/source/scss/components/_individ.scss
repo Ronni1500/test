@@ -1,0 +1,61 @@
+.individ{
+    &__top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 50px;
+        background: #f2c2c8;
+        margin-bottom: 35px;
+        &__img{
+            & img{
+                max-width: 100%;                
+            }
+        }
+        &__prop{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 145px;
+            &__name{
+                text-align: left;
+                color: $gray--text;
+            }
+            &__value{
+                text-align: center;
+                font-weight: 500;
+            }
+        }
+        &__btn{
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+    &__settings{
+        padding: 25px 25px;
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #cccccc;
+        }
+        &__props{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__prop{
+            width: 100px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 0 2px 10px rgb(0,0,0);
+            cursor: pointer; 
+            &--circle{
+                border-radius: 100px;
+            }           
+        }
+    }
+}
